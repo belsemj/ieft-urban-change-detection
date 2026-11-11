@@ -1,0 +1,2 @@
+# Install the maintained LEVIR-CD environment from the nested project root.
+-r IEFT/requirements-levir.txt

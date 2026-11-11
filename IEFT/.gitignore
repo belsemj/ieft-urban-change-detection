@@ -1,0 +1,46 @@
+# Python artifacts
+__pycache__/
+.pytest_cache/
+.pytest_tmp*/
+.test_tmp/
+*.py[cod]
+*.pyo
+*.pyd
+*.ipynb
+
+# Local environment
+.venv/
+env/
+.hf_home/
+.vscode/
+.idea/
+
+# Outputs and experiment artifacts
+outputs/
+result/
+api_runs/
+artifacts/
+logs/
+*.log
+*.tmp
+.coverage
+htmlcov/
+
+# Data directories and cached datasets
+data_*/
+dummy_data/
+
+# Large model / feature files
+model/
+!model/.gitkeep
+IEFT/features/
+IEFT/models/
+IEFT/weights/
+IEFT/data_raw/
+IEFT/data_osm/
+IEFT/dummy_data/
+
+# Checkpoints
+*.ckpt
+*.pth
+*.pt
